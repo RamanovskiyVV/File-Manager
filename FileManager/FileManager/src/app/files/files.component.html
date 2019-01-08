@@ -1,0 +1,39 @@
+<div id="container" (click)="disableContextMenu($event)" oncontextmenu="return false;">
+
+  <div hidden id="buttons">
+    <a class="buttonback" a href="#" (click)="GetBack()" >back </a>
+    <a id ="directory" class="button" href="#" (click)="CreateDirectory($event)">{{constCreateFolder}}</a>
+    <a id ="file" class="button" href="#" (click)="CreateDirectory($event)">{{constCreateFile}}</a>
+  </div>
+
+  <div *ngIf="fileService.isError==true">
+    <app-message></app-message>
+  </div>
+
+  <ul ([ngModel])="listOfDirectories" [ngClass]="{'folders':true}">
+
+    <li *ngFor="let currentDirectory of listOfDirectories" 
+    (click)="ViewFileSystem(currentDirectory.path)" 
+    id="{{currentDirectory.path}}"
+    (contextmenu)="onrightClick($event,'directory')">
+      {{currentDirectory.name}}
+    </li>
+
+  </ul>
+
+  <ul ([ngModel])="listOfFiles" [ngClass]="{'files':true}">
+
+    <li *ngFor="let currentFile of listOfFiles" 
+    (click)="Open(currentFile.path)" 
+    id="{{currentFile.path}}"
+    (contextmenu)="onrightClick($event,'file')">
+      {{currentFile.name}}
+    </li>
+
+  </ul>
+
+  <div *ngIf="contextmenu==true">
+    <app-contextmenu [x]="contextmenuX" [y]="contextmenuY"></app-contextmenu>
+  </div>
+  
+</div>

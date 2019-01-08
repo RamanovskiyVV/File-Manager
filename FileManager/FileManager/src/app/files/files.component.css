@@ -1,0 +1,118 @@
+#buttons{
+    margin-top: 2%;
+}
+ul.folders{
+    list-style-image: url("/Styles/resources/folder.png");
+}
+
+ul.files{
+    list-style-image: url("/Styles/resources/file.png");
+    }
+#container{
+    color:black;
+    text-shadow: white 0 0 15px;
+}
+li{
+    font-family: "Palatino Linotype", "Book Antiqua", cursive;
+    cursor: pointer;
+}
+
+.button{text-decoration:none; text-align:center; 
+    padding:14px 12px; 
+    border:solid 1px #ced9de; 
+    -webkit-border-radius:23px;
+    -moz-border-radius:23px; 
+    border-radius: 23px; 
+    font:16px "Courier New", Times, serif; 
+    font-weight:bold; 
+    color:#8a8a8a; 
+    background-color:#ffffff; 
+    /* background-image: -moz-linear-gradient(top, #ffffff 0%, #d4d4d4 100%);  */
+    background: linear-gradient(to top, #ffffff, #d4d4d4); 
+    /* background-image: -o-linear-gradient(top, #ffffff 0%, #d4d4d4 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#d4d4d4',GradientType=0 ); 
+    /* background-image: linear-gradient(top, #ffffff 0% ,#d4d4d4 100%);    */
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    /* -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;   */
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+     
+     }.button:hover{
+    padding:15px 17px; 
+    border:solid 1px #ced9de; 
+    -webkit-border-radius:23px;
+    -moz-border-radius:23px; 
+    border-radius: 23px; 
+    font:16px "Courier New", Times, serif; 
+    font-weight:bold; 
+    color:#ab9a9a; 
+    background-color:#ffffff; 
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #d4d4d4 100%); 
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #d4d4d4 100%); 
+    background-image: -o-linear-gradient(top, #ffffff 0%, #d4d4d4 100%); 
+    background-image: -ms-linear-gradient(top, #ffffff 0% ,#d4d4d4 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#d4d4d4',GradientType=0 ); 
+    background-image: linear-gradient(top, #ffffff 0% ,#d4d4d4 100%);   
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+     
+    }.button:active{
+    padding:15px 17px; 
+    border:solid 1px #ced9de; 
+    -webkit-border-radius:23px;
+    -moz-border-radius:23px; 
+    border-radius: 23px; 
+    font:16px "Courier New", Times, serif; 
+    font-weight:bold; 
+    color:#8a8a8a; 
+    background-color:#ffffff; 
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #d4d4d4 100%); 
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #d4d4d4 100%); 
+    background-image: -o-linear-gradient(top, #ffffff 0%, #d4d4d4 100%); 
+    background-image: -ms-linear-gradient(top, #ffffff 0% ,#d4d4d4 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#d4d4d4',GradientType=0 ); 
+    background-image: linear-gradient(top, #ffffff 0% ,#d4d4d4 100%);   
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;       
+    }
+
+    .buttonback{text-decoration:none; text-align:center; 
+        padding:1px 9px; 
+        border:solid 1px #171717; 
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px; 
+        border-radius: 4px; 
+        font:18px "Courier New", Courier, monospace; 
+        font-weight:bold; 
+        color:#ffffff; 
+        background: linear-gradient(to bottom, #d4d4d4, #000000);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); 
+        background-image: linear-gradient(top, #d4d4d4 0% ,#000000 100%);   
+        -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+        -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+        box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+         
+         }.buttonback:active{
+        padding:1px 9px; 
+        border:none; 
+         
+        font:18px "Courier New", Courier, monospace; 
+        font-weight:bold; 
+        color:#ffffff; 
+        background: linear-gradient(to bottom, #d4d4d4, #000000); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); 
+        background-image: linear-gradient(top, #d4d4d4 0% ,#000000 100%);   
+        -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+        -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+        box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+         
+        text-shadow: -1px 0px 0px #ffffff; 
+        filter: dropshadow(color=#ffffff, offx=-1, offy=0);
+    }
+    #directory{
+        margin-left: 45%; 
+    }
+    #file{
+        margin-left: 1%; 
+    }

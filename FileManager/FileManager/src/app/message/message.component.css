@@ -1,0 +1,12 @@
+.message{
+    color: #D8000C;
+    background-color: #FFBABA;
+    position: fixed;
+    margin-left: 23%;
+    padding-left: 2%;
+    padding-right: 2%;
+    cursor: pointer;
+}
+#image{
+    background: url("/Styles/resources/error.png");
+}
